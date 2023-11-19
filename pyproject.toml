@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-web-hw13-django"
+version = "0.1.0"
+description = "Django project"
+authors = ["Mykhailo Ivanov <ivmv2007@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+pymongo = "^4.5.0"
+mongoengine = "^0.27.0"
+psycopg2 = "^2.9.9"
+django-environ = "^0.11.2"
+black = "^23.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
